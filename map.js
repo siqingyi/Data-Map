@@ -87,7 +87,6 @@ $.ajax({
       })
       .addTo(MPO)
       .bindPopup(PMTC);
-    map.fitBounds(geojsonMPO.getBounds());
   }
 });
 
@@ -101,7 +100,6 @@ $.ajax({
       })
       .addTo(MPO)
       .bindPopup(PSA);
-    map.fitBounds(geojsonMPO.getBounds());
   }
 });
 
@@ -115,7 +113,6 @@ $.ajax({
       })
       .addTo(MPO)
       .bindPopup(PSJ);
-    map.fitBounds(geojsonMPO.getBounds());
   }
 });
 
@@ -138,7 +135,6 @@ $.ajax({
   dataType: 'json',
   success: function(response) {
     geojsonCountyAM = L.geoJson(response).addTo(County).bindPopup(PAM);
-    map.fitBounds(geojsonCounty.getBounds());
   }
 });
 
