@@ -129,8 +129,8 @@ var grayscale = L.tileLayer(mbUrl, {
 
 
 var map = L.map('map', {
-  center: [37.8988255, -122.0127493],
-  zoom: 7,
+  center: [38.010917, -121.678996],
+  zoom: 8,
   layers: [grayscale, MPO]
 });
 
