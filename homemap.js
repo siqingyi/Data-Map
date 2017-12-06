@@ -1,6 +1,6 @@
 //////////////////Popup Contents///////////////////
 var PMTC =
-  '<p><h1>Bay Area (MTC)</h1></p>' +
+  '<p><h1>San Francisco Bay Area (MTC)</h1></p>' +
   '<div class="Pop"><h2>Key Facts</h2>' +
   '<p><b>Area</b>   7,000 sq mi</p>' +
   '<p><b>Population</b>   7.68 million</p>' +
@@ -95,7 +95,18 @@ $.ajax({
 });
 
 
-
+$.ajax({
+  type: "GET",
+  url: 'https://gist.githubusercontent.com/siqingyi/163b7ad07862c0730c9e5bfafbe35905/raw/fb91370bcceb60a08dea9af3d02e69f9d0ed17dc/MPO.json',
+  dataType: 'json',
+  success: function(response) {
+    geojsonMPO = L.geoJson(response, {
+        style: Mstyle
+      })
+      .bindPopup(PMTC);
+    map.fitBounds(geojsonMPO.getBounds());
+  }
+});
 
 
 
