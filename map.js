@@ -7,11 +7,11 @@ var PMTC =
   '<p><b>Population</b>   7.68 million</p>' +
   '<p><b>Number of Warehouses</b>   738</p>' +
   '<p><b>Major Mode</b>   Truck 72%</p>' +
-  '<h2>Data Sources</h2>' +
+  '<p><h2>Data Sources</h2></p>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
   '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
-  '<h2>Studies</h2>' +
+  '<p><h2>Studies1</h2></p>' +
   '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
   '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
