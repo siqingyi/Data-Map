@@ -10,7 +10,7 @@ var PMTC =
   '<h2>Data Sources</h2>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
   '<h2>Studies</h2>' +
   '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
@@ -27,7 +27,7 @@ var PSA =
   '<h2>Data Sources</h2>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
   '<h2>Studies</h2>' +
   '<p><a href="https://www.sacog.org/regional-goods-movement-study"><b>SACOG Regional Goods Movement Study</b>' +
   '</div>';
