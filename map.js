@@ -5,67 +5,84 @@ var PMTC =
   '<div class="Pop"><h2>Key Facts</h2>' +
   '<p><b>Area</b>   7,000 sq mi</p>' +
   '<p><b>Population</b>   7.68 million</p>' +
-  '<p><b>Freight Flow</b>   388 millions of tons</p>' +
+  '<p><b>Number of Warehouses</b>   738</p>' +
   '<p><b>Major Mode</b>   Truck 72%</p>' +
   '<h2>Data Sources</h2>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<h2>Studies</h2>' +
   '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
-  '</div>';
+  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
+   '</div>';
 
 var PSA =
   '<h1>Sacramento Area Council of Governments</h1>' +
   '<div class="Pop"><h2>Key Facts</h2>' +
-  '<p><p><b>Area</b>   a sq mi</p>' +
-  '<p><b>Population</b>   b million</p>' +
-  '<p><b>Freight Flow</b>   c millions of tons</p>' +
-  '<p><b>Major Mode</b>   Truck d%</p>' +
+  '<p><p><b>Area</b>   6558 sq mi</p>' +
+  '<p><b>Population</b>   2.45 million</p>' +
+  '<p><b>Number of Warehouses</b>   248</p>' +
+  '<p><b>Major Mode</b>   Truck 68%</p>' +
   '<h2>Data Sources</h2>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<h2>Studies</h2>' +
+  '<p><a href="https://www.sacog.org/regional-goods-movement-study"><b>SACOG Regional Goods Movement Study</b>' +
   '</div>';
 
 var PSJ =
   '<h1>San Joaquin Council of Governments</h1>' +
   '<div class="Pop"><h2>Key Facts</h2>' +
-  '<p><b>Area</b>   a sq mi</p>' +
-  '<p><b>Population</b>   b million</p>' +
-  '<p><b>Freight Flow</b>   c millions of tons</p>' +
-  '<p><b>Major Mode</b>   Truck d%</p>' +
+  '<p><b>Area</b>   1426 sq mi</p>' +
+  '<p><b>Population</b>   0.73 million</p>' +
+  '<p><b>Number of Warehouses</b>   116</p>' +
+  '<p><b>Major Mode</b>   Truck 92%</p>' +
   '<h2>Data Sources</h2>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<h2>Studies</h2>' +
   '<p><a href="http://sjvcogs.org/valleywide_activities/good-movement/"><b>San Joaquin Valley Goods Movement Plan</b></p>' +
   '</div>';
 
 var PAM =
   '<h1>Alameda County</h1>' +
   '<div class="Pop"><h2>Key Facts</h2>' +
-  '<p><b>Area</b>   a sq mi</p>' +
-  '<p><b>Population</b>   b million</p>' +
-  '<p><b>Freight Flow</b>   c millions of tons</p>' +
-  '<p><b>Major Mode</b>   Truck d%</p>' +
+  '<p><b>Area</b>   821 sq mi</p>' +
+  '<p><b>Population</b>   1.5 million</p>' +
+  '<p><b>Freight Flow</b>   144 millions of tons</p>' +
+  '<p><b>Major Mode</b>   Truck 81%</p>' +
   '<h2>Data Sources</h2>' +  
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<h2>Studies</h2>' +
   '<p><a href="https://www.alamedactc.org/app_pages/view/13783"><b>Alameda County Goods Movement Plan</b></p>' +
   '</div>';
   
 var PCA =
   '<h1>California State</h1>' +
   '<div class="Pop"><h2>Key Facts</h2>' +
-  '<p><b>Area</b>   a sq mi</p>' +
-  '<p><b>Population</b>   b million</p>' +
-  '<p><b>Freight Flow</b>   c millions of tons</p>' +
-  '<p><b>Major Mode</b>   Truck d%</p>' +
+  '<p><b>Area</b>   163,696 sq mi</p>' +
+  '<p><b>Population</b>   39.25 million</p>' +
+  '<p><b>Freight Flow</b>   1,442 millions of tons</p>' +
   '<h2>Data Sources</h2>' +  
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<h2>Studies</h2>' +
   '<p><a href="http://www.dot.ca.gov/californiarail/"><b>California State Rail Plan </b>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/california_freight_mobility_plan.html"><b>California Freight Mobility Plan</b></p>' +
   '<p><a href="http://www.casustainablefreight.org/theplan.html"><b>California Sustainable Freight Action Plan</b></p>' +
   '</div>';
 
 var PNO =
-  '<p>No data available. Please come back later.</p>' +
-  '11/2017' +
+  '<p>No data available. Please check other layers. </p>' +
+  '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
+  '12/2017' +
   '</div>';
 
 //////////////////Layers-MPO///////////////////
