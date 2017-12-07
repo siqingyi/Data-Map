@@ -79,6 +79,24 @@ var PCA =
   '<p><a href="http://www.casustainablefreight.org/theplan.html"><b>California Sustainable Freight Action Plan</b></p>' +
   '</div>';
 
+var PSR =
+  '<h1>Sacramento-Roseville Combined Statistical Area</h1>' +
+  '<div class="Pop"><h2>Key Facts</h2>' +
+  '<p><b>Population</b>   2.42 million</p>' +
+  '<p><b>Freight Flow</b>   87 millions of tons</p>' +
+  '<h2>Data Sources</h2>' +  
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '</div>';
+
+var PSOS =
+  '<h1>San Jose-San Francisco-Oakland Combined Statistical Area</h1>' +
+  '<div class="Pop"><h2>Key Facts</h2>' +
+  '<p><b>Population</b>   8.75 million</p>' +
+  '<p><b>Freight Flow</b>   376 millions of tons</p>' +
+  '<h2>Data Sources</h2>' +  
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '</div>';
+
 var PNO =
   '<p>No data available. Please check other layers. </p>' +
   '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
@@ -187,15 +205,26 @@ var CSAstyle = {
 
 $.ajax({
   type: "GET",
-  url: 'https://gist.githubusercontent.com/siqingyi/f62079365ca022844d8d89ff71e58726/raw/c610f3736b7a5d3d46194ef75ef388d0ac6f0550/CSA.json',
+  url: 'https://gist.githubusercontent.com/siqingyi/013e0d083234320959d6b2d5ca0a7e45/raw/70195c4a30856cf96b8245042c9ec67d15d015d4/CSASR.json',
   dataType: 'json',
   success: function(response) {
-    geojsonCSA = L.geoJson(response, {
+    geojsonCSASR = L.geoJson(response, {
       style: CSAstyle
-    }).addTo(CSA);
-    map.fitBounds(geojsonCSA.getBounds());
+    }).addTo(CSA).bindPopup(PSR);
   }
 });
+
+$.ajax({
+  type: "GET",
+  url: 'https://gist.githubusercontent.com/siqingyi/1ba5aa1e6e84c3cf2aa921752ad17010/raw/b9153d0edcfac62dfa44a3db02f7c2df41f20bfe/CSASOS.json',
+  dataType: 'json',
+  success: function(response) {
+    geojsonCSASOS = L.geoJson(response, {
+      style: CSAstyle
+    }).addTo(CSA).bindPopup(PSOS);
+  }
+});
+
 
 var State = L.layerGroup();
 var Sstyle = {
