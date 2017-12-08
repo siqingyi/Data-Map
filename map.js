@@ -228,7 +228,6 @@ $.ajax({
     geojsonDistrict3 = L.geoJson(response, {
       style: Dstyle
     }).addTo(District).bindPopup(PD3);
-    map.fitBounds(geojsonDistrict.getBounds());
   }
 });
 
@@ -241,7 +240,6 @@ $.ajax({
     geojsonDistrict4 = L.geoJson(response, {
       style: Dstyle
     }).addTo(District).bindPopup(PD4);
-    map.fitBounds(geojsonDistrict.getBounds());
   }
 });
 
@@ -253,7 +251,6 @@ $.ajax({
     geojsonDistrict10 = L.geoJson(response, {
       style: Dstyle
     }).addTo(District).bindPopup(PD10);
-    map.fitBounds(geojsonDistrict.getBounds());
   }
 });
 
@@ -304,7 +301,6 @@ $.ajax({
     geojsonState = L.geoJson(response, {
       style: Sstyle
     }).addTo(State).bindPopup(PCA);
-    map.fitBounds(geojsonState.getBounds());
   }
 });
 
@@ -326,7 +322,6 @@ $.ajax({
     geojsonAir = L.geoJson(response, {
       style: Astyle
     }).addTo(Air).bindPopup(PNO);
-    map.fitBounds(geojsonMPO.getBounds());
   }
 });
 
