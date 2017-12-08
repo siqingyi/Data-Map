@@ -83,6 +83,7 @@ var PCA =
   '<p><a href="http://www.dot.ca.gov/californiarail/"><b>California State Rail Plan </b>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/california_freight_mobility_plan.html"><b>California Freight Mobility Plan</b></p>' +
   '<p><a href="http://www.casustainablefreight.org/theplan.html"><b>California Sustainable Freight Action Plan</b></p>' +
+  '<p><a href="http://www.dot.ca.gov/californiarail/docs/Rail_CAEconomy_Book_Report_V28_LowResPages.pdf"><b>Rail and the California Economy</b>' +
   '</div>';
 
 var PSR =
