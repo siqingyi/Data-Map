@@ -11,7 +11,7 @@ var PMTC =
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
   '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p></a>' +
-  '<p><h2>studies</h2></p>' +
+  '<p><h2>Studies</h2></p>' +
   '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></a></p>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></a></p>' +
   '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b></a>' +
