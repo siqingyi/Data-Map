@@ -61,6 +61,12 @@ var PAM =
   '<h2>Studies</h2>' +
   '<p><a href="https://www.alamedactc.org/app_pages/view/13783"><b>Alameda County Goods Movement Plan</b></p>' +
   '</div>';
+
+var PCONO =
+  '<p>No data available for this county. Please check Alameda County. </p>' +
+  '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
+  '12/2017' +
+  '</div>';
   
 var PCA =
   '<h1>California State</h1>' +
@@ -190,7 +196,7 @@ $.ajax({
   url: 'https://gist.githubusercontent.com/siqingyi/dc4b464b9d706176c169b4bed5bb0def/raw/5638b8238893bd9c3ce86096c69007816b95caa5/CountyEL.json',
   dataType: 'json',
   success: function(response) {
-    geojsonCounty = L.geoJson(response).addTo(County).bindPopup(PNO);
+    geojsonCounty = L.geoJson(response).addTo(County).bindPopup(PCONO);
     map.fitBounds(geojsonCounty.getBounds());
   }
 });
