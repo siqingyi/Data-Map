@@ -11,7 +11,7 @@ var PMTC =
   '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
   '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
   '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
-  '<p><h2>Studies1</h2></p>' +
+  '<p><h2>Studies</h2></p>' +
   '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
   '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
   '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
@@ -95,6 +95,37 @@ var PSOS =
   '<p><b>Freight Flow</b>   376 millions of tons</p>' +
   '<h2>Data Sources</h2>' +  
   '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '</div>';
+
+var PD3 =
+  '<h1>Caltrans District 3</h1>' +
+  '<h2>Studies</h2>' +  
+  '<p><a href="http://www.dot.ca.gov/dist3/departments/planning/goodsmovement.htm"><b>District 3 Goods Movement Study</b>' +
+  '</div>';
+
+var PD4 =
+  '<h1>Caltrans District 4</h1>' +
+  '<div class="Pop"><h2>Key Facts</h2>' +
+  '<p><b>Area</b>   7,000 sq mi</p>' +
+  '<p><b>Population</b>   7.68 million</p>' +
+  '<p><b>Number of Warehouses</b>   738</p>' +
+  '<p><b>Major Mode</b>   Truck 72%</p>' +
+  '<p><h2>Data Sources</h2></p>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
+  '<p><h2>Studies</h2></p>' +
+  '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
+  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
+  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
+  '</div>';
+
+
+var PD10 =
+  '<h1>Caltrans District 10</h1>' +
+  'No data available. Please check other districts. ' +
+  '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
+  '12/2017' +
   '</div>';
 
 var PNO =
@@ -185,15 +216,41 @@ var Dstyle = {
 
 $.ajax({
   type: "GET",
-  url: 'https://gist.githubusercontent.com/siqingyi/acfb233df91631ca3e59ba5fee0eac93/raw/4529e48a846579f90bc9e63a038301b335519cf4/District.json',
+  url: 'https://gist.githubusercontent.com/siqingyi/ec8a659ed0da8c7edc4f5c105141603e/raw/a922e2caec51ef166667922f79afd91045d41091/D3.json',
   dataType: 'json',
   success: function(response) {
-    geojsonDistrict = L.geoJson(response, {
+    geojsonDistrict3 = L.geoJson(response, {
       style: Dstyle
-    }).addTo(District);
+    }).addTo(District).bindPopup(PD3);
     map.fitBounds(geojsonDistrict.getBounds());
   }
 });
+
+
+$.ajax({
+  type: "GET",
+  url: 'https://gist.githubusercontent.com/siqingyi/c39f3734d0e42a5ed8af6eb69d78096a/raw/ee863fffa950da3102f07513661ac59f7278e4bb/D4.json',
+  dataType: 'json',
+  success: function(response) {
+    geojsonDistrict4 = L.geoJson(response, {
+      style: Dstyle
+    }).addTo(District).bindPopup(PD4);
+    map.fitBounds(geojsonDistrict.getBounds());
+  }
+});
+
+$.ajax({
+  type: "GET",
+  url: 'https://gist.githubusercontent.com/siqingyi/e1063cfec66b0619e64d29ac86d48e85/raw/89297a2a5e528e35df19155310d6da1e16c183a4/D10.json',
+  dataType: 'json',
+  success: function(response) {
+    geojsonDistrict10 = L.geoJson(response, {
+      style: Dstyle
+    }).addTo(District).bindPopup(PD10);
+    map.fitBounds(geojsonDistrict.getBounds());
+  }
+});
+
 
 var CSA = L.layerGroup();
 
