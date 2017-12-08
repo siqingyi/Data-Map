@@ -65,7 +65,7 @@ var PAM =
 var PCONO =
   '<p>No data available for this county. Please check Alameda County. </p>' +
   '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
-  '12/2017' +
+  '<p>12/2017 </p>' +
   '</div>';
   
 var PCA =
@@ -132,13 +132,13 @@ var PD10 =
   '<h1>Caltrans District 10</h1>' +
   'No data available. Please check other districts. ' +
   '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
-  '12/2017' +
+  '<p>12/2017 </p>' +
   '</div>';
 
 var PNO =
   '<p>No data available. Please check other layers. </p>' +
   '<p>Please contact the team via siqingyi@berkeley.edu if you know any relevant data source. </p>' 
-  '12/2017' +
+  '<p>12/2017 </p>' +
   '</div>';
 
 //////////////////Layers-MPO///////////////////
