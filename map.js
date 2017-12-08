@@ -8,13 +8,13 @@ var PMTC =
   '<p><b>Number of Warehouses</b>   738</p>' +
   '<p><b>Major Mode</b>   Truck 72%</p>' +
   '<p><h2>Data Sources</h2></p>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"></a><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"></a><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"></a><b>Mobile Source Emissions Inventory</b></p>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p></a>' +
   '<p><h2>studies</h2></p>' +
-  '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
-  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
-  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
+  '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></a></p>' +
+  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></a></p>' +
+  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b></a>' +
    '</div>';
 
 var PSA =
@@ -25,11 +25,11 @@ var PSA =
   '<p><b>Number of Warehouses</b>   248</p>' +
   '<p><b>Major Mode</b>   Truck 68%</p>' +
   '<h2>Data Sources</h2>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></a></p>' +
   '<h2>Studies</h2>' +
-  '<p><a href="https://www.sacog.org/regional-goods-movement-study"><b>SACOG Regional Goods Movement Study</b>' +
+  '<p><a href="https://www.sacog.org/regional-goods-movement-study"><b>SACOG Regional Goods Movement Study</b></a>' +
   '</div>';
 
 var PSJ =
@@ -40,11 +40,11 @@ var PSJ =
   '<p><b>Number of Warehouses</b>   116</p>' +
   '<p><b>Major Mode</b>   Truck 92%</p>' +
   '<h2>Data Sources</h2>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></a>' +
   '<h2>Studies</h2>' +
-  '<p><a href="http://sjvcogs.org/valleywide_activities/good-movement/"><b>San Joaquin Valley Goods Movement Plan</b></p>' +
+  '<p><a href="http://sjvcogs.org/valleywide_activities/good-movement/"><b>San Joaquin Valley Goods Movement Plan</b></a></p>' +
   '</div>';
 
 var PAM =
@@ -55,11 +55,11 @@ var PAM =
   '<p><b>Freight Flow</b>   144 millions of tons</p>' +
   '<p><b>Major Mode</b>   Truck 81%</p>' +
   '<h2>Data Sources</h2>' +  
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></a>' +
   '<h2>Studies</h2>' +
-  '<p><a href="https://www.alamedactc.org/app_pages/view/13783"><b>Alameda County Goods Movement Plan</b></p>' +
+  '<p><a href="https://www.alamedactc.org/app_pages/view/13783"><b>Alameda County Goods Movement Plan</b></a></p>' +
   '</div>';
 
 var PCONO =
@@ -75,15 +75,15 @@ var PCA =
   '<p><b>Population</b>   39.25 million</p>' +
   '<p><b>Freight Flow</b>   1,442 millions of tons</p>' +
   '<h2>Data Sources</h2>' +  
-  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b>' +
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></a>' +
   '<h2>Studies</h2>' +
-  '<p><a href="http://www.dot.ca.gov/californiarail/"><b>California State Rail Plan </b>' +
-  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/california_freight_mobility_plan.html"><b>California Freight Mobility Plan</b></p>' +
-  '<p><a href="http://www.casustainablefreight.org/theplan.html"><b>California Sustainable Freight Action Plan</b></p>' +
-  '<p><a href="http://www.dot.ca.gov/californiarail/docs/Rail_CAEconomy_Book_Report_V28_LowResPages.pdf"><b>Rail and the California Economy</b>' +
+  '<p><a href="http://www.dot.ca.gov/californiarail/"><b>California State Rail Plan </b></a>' +
+  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/california_freight_mobility_plan.html"><b>California Freight Mobility Plan</b></a></p>' +
+  '<p><a href="http://www.casustainablefreight.org/theplan.html"><b>California Sustainable Freight Action Plan</b></a></p>' +
+  '<p><a href="http://www.dot.ca.gov/californiarail/docs/Rail_CAEconomy_Book_Report_V28_LowResPages.pdf"><b>Rail and the California Economy</b></a>' +
   '</div>';
 
 var PSR =
@@ -92,7 +92,7 @@ var PSR =
   '<p><b>Population</b>   2.42 million</p>' +
   '<p><b>Freight Flow</b>   87 millions of tons</p>' +
   '<h2>Data Sources</h2>' +  
-  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b></a>' +
   '</div>';
 
 var PSOS =
@@ -101,13 +101,13 @@ var PSOS =
   '<p><b>Population</b>   8.75 million</p>' +
   '<p><b>Freight Flow</b>   376 millions of tons</p>' +
   '<h2>Data Sources</h2>' +  
-  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b>' +
+  '<p><a href="http://faf.ornl.gov/fafweb/"><b>FAF4 Database </b></a>' +
   '</div>';
 
 var PD3 =
   '<h1>Caltrans District 3</h1>' +
   '<h2>Studies</h2>' +  
-  '<p><a href="http://www.dot.ca.gov/dist3/departments/planning/goodsmovement.htm"><b>District 3 Goods Movement Study</b>' +
+  '<p><a href="http://www.dot.ca.gov/dist3/departments/planning/goodsmovement.htm"><b>District 3 Goods Movement Study</b></a>' +
   '</div>';
 
 var PD4 =
@@ -118,13 +118,13 @@ var PD4 =
   '<p><b>Number of Warehouses</b>   738</p>' +
   '<p><b>Major Mode</b>   Truck 72%</p>' +
   '<p><h2>Data Sources</h2></p>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b>' +
-  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b>' +
-  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></p>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/census/"><b>Truck AADT</b></a>' +
+  '<p><a href="http://www.dot.ca.gov/trafficops/wim/datawim.html"><b>Weigh-In-Motion (WIM) Data</b></a>' +
+  '<p><a href="https://www.arb.ca.gov/msei/categories.htm"><b>Mobile Source Emissions Inventory</b></a></p>' +
   '<p><h2>Studies</h2></p>' +
-  '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></p>' +
-  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></p>' +
-  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b>' +
+  '<p><a href="https://mtc.ca.gov/our-work/plans-projects/economic-vitality/san-francisco-bay-area-goods-movement-plan"><b>Bay Area Goods Movement Plan </b></a></p>' +
+  '<p><a href="http://www.dot.ca.gov/hq/tpp/offices/ogm/regional_level/FR3_SFBAFMS_Final_Report.pdf"><b>San Francisco Bay Area Freight Mobility Study </b></a></p>' +
+  '<p><a href="http://www.planningfor.jobs/research"><b>Industrial Land and Jobs Study</b></a>' +
   '</div>';
 
 
